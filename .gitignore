@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+drivers/
+*.pdf
+*.png
+.DS_Store
