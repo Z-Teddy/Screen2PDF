@@ -41,12 +41,15 @@ Before running the script, please ensure you have the following installed:
     ```
 
      *(If* *`requirements.txt`* *is missing, manually install:*  *`pip install selenium Pillow`* *)*
-3. **Browser Drivers (Important)** The program attempts to find drivers automatically. If it fails, please download the matching driver for your browser version:
+3. **Browser Drivers (Important)** The project contains a pre-made drivers folder structure. Please download the matching driver for your browser version:
 
     - **Chrome**: [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/)
     - **Edge**: [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
-    *Create a* *`drivers`* *folder in the root directory and place the driver executable (e.g.,*  *`chromedriver.exe`* *or* *`msedgedriver.exe`* *) inside.*
+    **Then, simply place the driver executable (e.g.,**  **`msedgedriver.exe`** **) into the corresponding folder:**
+   
+    - For Edge (Windows): Put it in `drivers/edge_win64/`
+    - For Chrome (Windows): Put it in `drivers/chrome_win64/`
 
 ### 🚀 Usage
 
@@ -106,12 +109,15 @@ The final PDF will be saved to your **Desktop**.
     ```
 
      *(如果没有 requirements.txt，请手动运行：**`pip install selenium Pillow`* *)*
-3. **关于浏览器驱动 (重要)** 程序会尝试自动查找驱动。如果查找失败，请根据您的浏览器版本下载对应的驱动：
+3. **关于浏览器驱动 (重要)** 项目中已为您预设了 drivers 文件夹结构。请根据您的浏览器版本下载对应的驱动：
 
     - **Chrome**: [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/)
     - **Edge**: [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
-    *请在项目根目录下新建一个* *`drivers`* *文件夹，并将下载解压后的驱动文件（如* *`chromedriver.exe`* *或* *`msedgedriver.exe`* *）放入其中。*
+    **下载解压后，直接将驱动文件（如** **`msedgedriver.exe`** **）放入对应的文件夹即可：**
+
+    - Edge (Windows): 放入 `drivers/edge_win64/` 文件夹
+    - Chrome (Windows): 放入 `drivers/chrome_win64/` 文件夹
 
 ### 🚀 使用方法
 
@@ -159,3 +165,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Z-Teddy**
 GitHub: [@Z-Teddy](https://github.com/Z-Teddy)
+
